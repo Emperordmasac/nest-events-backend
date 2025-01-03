@@ -1,0 +1,18 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.fontWeight": "400",
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveBracketPair": true,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true
+}
