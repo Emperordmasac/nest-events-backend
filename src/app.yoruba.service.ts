@@ -10,6 +10,7 @@ export class AppYorubaService {
   ) {}
 
   getHello(): string {
+    console.log(process.env.DB_HOST);
     return `Eku Ojumo oo FROM ${this.name}, ${this.message}`;
   }
 }
